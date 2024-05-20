@@ -4,6 +4,7 @@ import TextComponent from '../TextComponent';
 import ImageComponent from '../ImageComponent';
 import ScrollViewComponent from '../ScrollViewComponent';
 import FlatListComponent from '../FlatListComponent';
+import ButtonComponent from '../ButtonComponent';
 
 const ViewComponent = () => {
   return (
@@ -12,7 +13,8 @@ const ViewComponent = () => {
         <TextComponent />
         <ImageComponent />
         {/* <ScrollViewComponent /> */}
-        <FlatListComponent />
+        {/* <FlatListComponent /> */}
+        <ButtonComponent />
       </View>
     </SafeAreaView>
   );
