@@ -3,6 +3,7 @@ import {View, StyleSheet, SafeAreaView} from 'react-native';
 import TextComponent from '../TextComponent';
 import ImageComponent from '../ImageComponent';
 import ScrollViewComponent from '../ScrollViewComponent';
+import FlatListComponent from '../FlatListComponent';
 
 const ViewComponent = () => {
   return (
@@ -10,7 +11,8 @@ const ViewComponent = () => {
       <View style={styles.container}>
         <TextComponent />
         <ImageComponent />
-        <ScrollViewComponent />
+        {/* <ScrollViewComponent /> */}
+        <FlatListComponent />
       </View>
     </SafeAreaView>
   );
