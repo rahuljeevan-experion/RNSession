@@ -5,16 +5,20 @@ import ImageComponent from '../ImageComponent';
 import ScrollViewComponent from '../ScrollViewComponent';
 import FlatListComponent from '../FlatListComponent';
 import ButtonComponent from '../ButtonComponent';
+import TextInputComponent from '../TextInputComponent';
+import UseEffectExample from '../UseEffectExample';
 
 const ViewComponent = () => {
   return (
     <SafeAreaView style={styles.flexOne}>
       <View style={styles.container}>
-        <TextComponent />
-        <ImageComponent />
+        {/* <TextComponent /> */}
+        {/* <ImageComponent /> */}
         {/* <ScrollViewComponent /> */}
         {/* <FlatListComponent /> */}
-        <ButtonComponent />
+        {/* <ButtonComponent /> */}
+        {/* <TextInputComponent /> */}
+        <UseEffectExample />
       </View>
     </SafeAreaView>
   );
