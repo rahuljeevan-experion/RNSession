@@ -24,6 +24,7 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import ViewComponent from './src/Components/ViewComponent';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -61,6 +62,8 @@ function App(): React.JSX.Element {
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
+
+  return <ViewComponent />;
 
   return (
     <SafeAreaView style={backgroundStyle}>
